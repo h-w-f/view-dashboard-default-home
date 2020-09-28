@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+	<name>DashboardDefaultHW</name>
+	<displayname>Hello World Component View (Dashboard/Hw)</displayname>
+	<description>Dashboard Default View for HW</description>
+	<version>0.0.2</version>
+	<repo>https://github.com/h-w-f/view-dashboard-default-hw</repo>
+	<dependencies>
+		<application>
+			<name>Dashboard</name>
+			<version>0.0.1</version>
+			<repo>https://github.com/h-w-f/application-dashboard</repo>
+		</application>
+		<component>
+			<name>Hw</name>
+			<version>0.0.1</version>
+			<repo>https://github.com/h-w-f/component-dashboard-hw</repo>
+		</component>
+		<view>
+			<name>Default</name>
+			<version>0.0.1</version>
+			<repo>https://github.com/h-w-f/view-dashboard-default</repo>
+		</view>		
+	</dependencies>
+	<settings>
+		<file>/Dashboard/Default/html/hw/view.html</file>
+		<head>
+			<title>Dashboard - HW</title>
+			<meta>
+				<name>viewport</name>
+				<content>width=device-width, initial-scale=1, shrink-to-fit=no</content>
+			</meta>
+			<meta>
+				<name>description</name>
+				<content>Dashboard Views</content>
+			</meta>
+			<meta>
+				<name>author</name>
+				<content>Guru</content>
+			</meta>
+			<meta>
+				<name>keywords</name>
+				<content>HTML, CSS, JavaScript</content>
+			</meta>
+			<link>
+				<href>/views/Dashboard/Default/css/bootstrap.min.css</href>
+			</link>
+			<link>
+				<href>/views/Dashboard/Default/css/icheck.css</href>
+			</link>
+			<link>
+				<href>/views/Dashboard/Default/css/font-awesome.min.css</href>
+			</link>	
+			<link>
+				<href>/views/Dashboard/Default/css/PNotify.min.css</href>
+			</link>				
+			<script>
+				<src>/views/Dashboard/Default/js/jquery-3.5.1.min.js</src>
+			</script>
+			<script>
+				<src>/views/Dashboard/Default/js/bootstrap.min.js</src>
+			</script>
+		</head>
+		<body>
+			<params>id="body" class="custom-body"</params>
+			<jsscript>
+				<![CDATA[
+					<script type="text/javascript">
+						var x;
+					</script>
+				]]>
+			</jsscript>
+		</body>
+		<footer>
+			<params>class="custom-footer"</params>
+			<script>
+				<src>/views/Dashboard/Default/js/PNotify.min.js</src>
+			</script>
+			<script>
+				<src>/views/Dashboard/Default/js/swal2.min.js</src>
+			</script>			
+			<jsscript>
+				<![CDATA[
+					<script type="text/javascript">
+						PNotify.defaultModules.set(PNotifyBootstrap4, {});
+						PNotify.defaultModules.set(PNotifyFontAwesome5, {});
+					</script>
+				]]>
+			</jsscript>
+		</footer>
+	</settings>
+</view>
