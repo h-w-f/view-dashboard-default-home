@@ -4,7 +4,7 @@
 	<displayname>Home Component View (Dashboard/Home)</displayname>
 	<description>Dashboard Default View for Home</description>
 	<version>0.0.2</version>
-	<repo>https://github.com/h-w-f/view-dashboard-default-hw</repo>
+	<repo>https://github.com/h-w-f/view-dashboard-default-home</repo>
 	<dependencies>
 		<application>
 			<name>Dashboard</name>
