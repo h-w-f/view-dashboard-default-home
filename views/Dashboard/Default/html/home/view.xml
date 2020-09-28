@@ -22,4 +22,5 @@
 			<repo>https://github.com/h-w-f/view-dashboard-default</repo>
 		</view>
 	</dependencies>
+	<settings></settings>
 </view>
