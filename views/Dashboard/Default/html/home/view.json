@@ -12,7 +12,7 @@
 				"repo"		: "https://github.com/h-w-f/core"
 			}
 		},
-		"applications"  : {
+		"application"  : {
 			"Blog" : {
 				"name"		: "Blog",
 				"version"	: "0.0.1",
