@@ -6,32 +6,24 @@
 	"repo"			: "https://github.com/h-w-f/view-blog-default",
 	"dependencies"	: {
 		"core"			: {
-			"Core" : {
-				"name"		: "Core",
-				"version"	: "0.0.1",
-				"repo"		: "https://github.com/h-w-f/core"
-			}
+			"name"		: "Core",
+			"version"	: "0.0.1",
+			"repo"		: "https://github.com/h-w-f/core"
 		},
 		"application"  : {
-			"Blog" : {
-				"name"		: "Blog",
-				"version"	: "0.0.1",
-				"repo"		: "https://github.com/h-w-f/application-blog"
-			}
+			"name"		: "Blog",
+			"version"	: "0.0.1",
+			"repo"		: "https://github.com/h-w-f/application-blog"
 		},
-		"components"	: {
-		},
-		"packages"		: {
-		},
-		"middlewares"	: {
-		},
-		"views"			: {
-			"Default" : {
-				"name"		: "Default",
-				"version"	: "0.0.1",
-				"repo"		: "https://github.com/h-w-f/view-dashboard-default"
-			}
-		}
+		"components"	: [],
+		"packages"		: [],
+		"middlewares"	: [],
+		"views"			:
+		[{
+			"name"		: "Default",
+			"version"	: "0.0.1",
+			"repo"		: "https://github.com/h-w-f/view-dashboard-default"
+		}]
 	},
 	"settings"		: {
 		"cache" 	: false,
