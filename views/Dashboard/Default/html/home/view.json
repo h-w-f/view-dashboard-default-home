@@ -2,7 +2,7 @@
 	"name"			: "DashboardDefaultHome",
 	"displayName" 	: "Dashboard Component Home View (Default)",
 	"description" 	: "Dashboard Component home view for Dashboard Default View",
-	"version"		: "0.0.1",
+	"version"		: "0.0.2",
 	"repo"			: "https://github.com/h-w-f/view-dashboard-default-home",
 	"dependencies"	: {
 		"core"			: {
@@ -12,7 +12,7 @@
 		},
 		"application"  : {
 			"name"		: "Dashboard",
-			"version"	: "0.0.1",
+			"version"	: "0.0.2",
 			"repo"		: "https://github.com/h-w-f/application-dashboard"
 		},
 		"components"	:
@@ -36,7 +36,7 @@
 		"views"			:
 		[{
 			"name"		: "Default",
-			"version"	: "0.0.1",
+			"version"	: "0.0.2",
 			"repo"		: "https://github.com/h-w-f/view-dashboard-default"
 		}]
 	},
@@ -44,24 +44,24 @@
 		"cache" 	: false,
 		"layout" 	: "/layout/view.html",
 		"head"		: {
-			"title"		: "Blog - ",
+			"title"		: "Dashboard - ",
 			"meta"		: {
 				"viewport" 		: "width=device-width, initial-scale=1, shrink-to-fit=no",
-				"description" 	: "Blog Views",
+				"description" 	: "Dashboard Views",
 				"author"		: "Guru",
 				"keywords"		: "HTML, CSS, JavaScript"
 			},
 			"link"		: {
 				"href"	:
 					[
-						"/views/Blog/Default/css/bootstrap.min.css"
+						"/views/Dashboard/Default/css/bootstrap.min.css"
 					]
 			},
 			"script"	: {
 				"src"	:
 					[
-						"/views/Blog/Default/js/jquery-3.5.1.min.js",
-						"/views/Blog/Default/js/bootstrap.min.js"
+						"/views/Dashboard/Default/js/jquery-3.5.1.min.js",
+						"/views/Dashboard/Default/js/bootstrap.min.js"
 					]
 			}
 		},
