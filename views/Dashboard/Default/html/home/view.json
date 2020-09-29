@@ -1,7 +1,7 @@
 {
 	"name"			: "DashboardDefaultHome",
-	"displayName" 	: "Component Home View (Default)",
-	"description" 	: "Component home view for Dashboard Default View",
+	"displayName" 	: "Dashboard Component Home View (Default)",
+	"description" 	: "Dashboard Component home view for Dashboard Default View",
 	"version"		: "0.0.1",
 	"repo"			: "https://github.com/h-w-f/view-dashboard-default-home",
 	"dependencies"	: {
@@ -11,13 +11,28 @@
 			"repo"		: "https://github.com/h-w-f/core"
 		},
 		"application"  : {
-			"name"		: "Blog",
+			"name"		: "Dashboard",
 			"version"	: "0.0.1",
 			"repo"		: "https://github.com/h-w-f/application-dashboard"
 		},
-		"components"	: [],
-		"packages"		: [],
-		"middlewares"	: [],
+		"components"	:
+		[{
+			"name"		: "Home",
+			"version"	: "0.0.1",
+			"repo"		: "https://github.com/h-w-f/component-dashboard-home"
+		}],
+		"packages"		:
+		[{
+			"name"		: "Home",
+			"version"	: "0.0.1",
+			"repo"		: "https://github.com/h-w-f/package-dashboard-home"
+		}],
+		"middlewares"	:
+		[{
+			"name"		: "Home",
+			"version"	: "0.0.1",
+			"repo"		: "https://github.com/h-w-f/middleware-dashboard-home"
+		}],
 		"views"			:
 		[{
 			"name"		: "Default",
