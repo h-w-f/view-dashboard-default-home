@@ -2,7 +2,7 @@
 	"name"			: "DashboardDefaultHome",
 	"displayName" 	: "Dashboard Component Home View (Default)",
 	"description" 	: "Dashboard Component home view for Dashboard Default View",
-	"version"		: "0.0.2",
+	"version"		: "0.0.3",
 	"repo"			: "https://github.com/h-w-f/view-dashboard-default-home",
 	"dependencies"	: {
 		"core"			: {
